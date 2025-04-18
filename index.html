@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   </head>
   <body class="netflix-bg">
-    <nav class="navbar navbar-expand-lg netflix-bg" data-bs-theme="dark">
-      <div class="container-fluid">
+    <header class="container gx-0">
+      <nav class="navbar navbar-expand-lg netflix-bg" data-bs-theme="dark">
         <a class="navbar-brand" href="#"><img src="assets/netflix_logo.png" width="100rem" alt="Netflix Logo" /></a>
         <button
           class="navbar-toggler"
@@ -62,9 +62,10 @@
             </div>
           </div>
         </div>
-      </div>
-    </nav>
-    <div class="row container-fluid text-white">
+      </nav>
+    </header>
+
+    <div class="container gx-0 text-white">
       <div class="d-flex justify-content-between">
         <div class="d-flex align-items-center max-width-16 justify-content-between">
           <h1 class="fs-2">TV Shows</h1>
@@ -84,35 +85,67 @@
           <button type="button" class="btn btn-outline-light rounded-0"><i class="bi bi-grid-fill"></i></button>
         </div>
       </div>
-      <div class="row container-fluid">
+      <div class="row gx-1">
         <div class="col-12 mt-3"><h3 class="fs-5">Trending Now</h3></div>
-        <div class="col-2"><img src="assets/media/media0.webp" alt="Sherlock" /></div>
-        <div class="col-2"><img src="assets/media/media1.jpg" alt="American Factory" /></div>
-        <div class="col-2"><img src="assets/media/media2.webp" alt="The Good Place" /></div>
-        <div class="col-2"><img src="assets/media/media3.webp" alt="Genius of the Modern World" /></div>
-        <div class="col-2"><img src="assets/media/media4.jpg" alt="Cuba and the Cameraman" /></div>
-        <div class="col-2"><img src="assets/media/media5.webp" alt="The China Hustle" /></div>
-      </div>
-      <div class="row container-fluid">
-        <div class="col-12 mt-3"><h3 class="fs-5">Watch It Again</h3></div>
-        <div class="col-2"><img src="assets/media/media6.jpg" alt="The Social Dilemma" /></div>
-        <div class="col-2"><img src="assets/media/media7.webp" alt="Arog" /></div>
-        <div class="col-2"><img src="assets/media/media8.webp" alt="Yahsi Bati" /></div>
-        <div class="col-2"><img src="assets/media/media9.jpg" alt="connected" /></div>
-        <div class="col-2"><img src="assets/media/media10.jpg" alt="The Spy" /></div>
-        <div class="col-2"><img src="assets/media/media11.jpg" alt="Operation Varsity Blues: The College Admissions Scandal" /></div>
-      </div>
-      <div class="row container-fluid">
-        <div class="col-12 mt-3"><h3 class="fs-5">New Releases</h3></div>
-        <div class="col-2"><img src="assets/media/media12.jpg" alt="The Social Dilemma" /></div>
-        <div class="col-2"><img src="assets/media/media13.jpg" alt="Arog" /></div>
-        <div class="col-2"><img src="assets/media/media14.webp" alt="Yahsi Bati" /></div>
-        <div class="col-2"><img src="assets/media/media15.jpg" alt="connected" /></div>
-        <div class="col-2"><img src="assets/media/media16.webp" alt="The Spy" /></div>
-        <div class="col-2"><img src="assets/media/media17.jpg" alt="Operation Varsity Blues: The College Admissions Scandal" /></div>
+        <div class="col-2"><img src="assets/media/media0.webp" alt="Sherlock" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media1.jpg" alt="American Factory" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media2.webp" alt="The Good Place" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media3.webp" alt="Genius of the Modern World" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media4.jpg" alt="Cuba and the Cameraman" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media5.webp" alt="The China Hustle" width="100%" /></div>
+        <div class="col-12 mt-5"><h3 class="fs-5">Watch It Again</h3></div>
+        <div class="col-2"><img src="assets/media/media6.jpg" alt="The Social Dilemma" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media7.webp" alt="Arog" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media8.webp" alt="Yahsi Bati" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media9.jpg" alt="connected" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media10.jpg" alt="The Spy" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media11.jpg" alt="Operation Varsity Blues: The College Admissions Scandal" width="100%" /></div>
+        <div class="col-12 mt-5"><h3 class="fs-5">New Releases</h3></div>
+        <div class="col-2"><img src="assets/media/media12.jpg" alt="The Social Dilemma" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media13.jpg" alt="Arog" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media14.webp" alt="Yahsi Bati" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media15.jpg" alt="connected" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media16.webp" alt="The Spy" width="100%" /></div>
+        <div class="col-2"><img src="assets/media/media17.jpg" alt="Operation Varsity Blues: The College Admissions Scandal" width="100%" /></div>
       </div>
     </div>
-
+    <footer class="container mt-footer text-footer">
+      <div class="row">
+        <div class="col-9 ms-auto">
+          <img class="me-3" src="assets/social-icons/facebook.png" alt="Find us on Facebook" width="30rem" />
+          <img class="me-3" src="assets/social-icons/instagram.png" alt="Find us on Instragram" width="30rem" />
+          <img class="me-3" src="assets/social-icons/twitter.png" alt="Find us on Twitter" width="30rem" />
+          <img class="me-3" src="assets/social-icons/youtube.png" alt="Find us on Youtube" width="30rem" />
+        </div>
+        <div class="col-9 ms-auto mt-4">
+          <div class="row">
+            <div class="col-2 fs-8">
+              <p>Audio and Subtitles</p>
+              <p>Media Center</p>
+              <p>Privacy</p>
+              <p>Contact Us</p>
+            </div>
+            <div class="col-2 fs-8">
+              <p>Audio Description</p>
+              <p>Investor Relations</p>
+              <p>Legal Notices</p>
+            </div>
+            <div class="col-2 fs-8">
+              <p>Audio Description</p>
+              <p>Investor Relations</p>
+              <p>Legal Notices</p>
+            </div>
+            <div class="col-3 fs-8">
+              <p>Gift Cards</p>
+              <p>Terms of Use</p>
+              <p>Corporate information</p>
+            </div>
+          </div>
+          <div class="col-12"><button class="btn btn-outline-secondary rounded-0 fs-8">Service Code</button></div>
+          <div class="col-12"><p class="fs-7 mt-3">&copy; 1997-2019 Netflix, Inc. {i-0d00fcda2fdf9c0de}</p></div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"

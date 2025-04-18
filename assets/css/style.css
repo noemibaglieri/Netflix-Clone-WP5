@@ -12,3 +12,18 @@
 .fs-7 {
   font-size: 0.6rem;
 }
+.fs-8 {
+  font-size: 0.8rem;
+}
+
+.mt-footer {
+  max-width: 50%;
+  margin-top: 8rem;
+}
+
+.text-footer {
+  color: #808080;
+}
+footer {
+  width: 100%;
+}
