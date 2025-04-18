@@ -28,3 +28,8 @@
 footer {
   width: 100%;
 }
+
+.edit-profile {
+  max-width: 50%;
+  min-width: 50%;
+}
