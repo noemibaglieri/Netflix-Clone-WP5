@@ -1,0 +1,14 @@
+.netflix-bg {
+  background-color: #141414;
+}
+.min-width {
+  min-width: 12rem;
+}
+.max-width-16 {
+  max-width: 16rem;
+  min-width: 16rem;
+}
+
+.fs-7 {
+  font-size: 0.6rem;
+}
